@@ -4,7 +4,7 @@ from azure.ai.ml.entities import Model, ManagedOnlineEndpoint, ManagedOnlineDepl
 
 # --- 1. Connect to your Azure ML Workspace ---
 # You can find these details on the overview page of your Azure ML Workspace
-subscription_id = "a5974998-4722-4b26-85f0-7357d23440bb"
+subscription_id = ""
 resource_group = "heart-disease-rg1"
 workspace_name = "heart-disease-ws"
 
