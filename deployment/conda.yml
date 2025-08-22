@@ -1,0 +1,11 @@
+name: basic-env-cpu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy
+      - scikit-learn==1.6.1
+      - joblib
+      - azureml-defaults
